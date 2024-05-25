@@ -1,11 +1,11 @@
-import React, { Children } from "react";
+import React, { children } from "react";
 
 import UserContext from "./UserContext.js";
 
-const UserContextProvider=({Children})=>{
+const UserContextProvider=({children})=>{
 
 
 
-return <UserContext.Provider value={{}}></UserContext.Provider>
+return <UserContext.Provider value={{}}>{children}</UserContext.Provider>
 }
 export default UserContextProvider
