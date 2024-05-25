@@ -32,12 +32,12 @@ const Navbar = () => {
             </div>
             <div className="lg:flex lg:justify-end">
               <img
-                src="assets/img/clients/g20.png"
+                src="g20.png"
                 alt="client "
                 className="h-10 w-10 mr-4 lg:h-44 lg:flex lg:w-44 hidden"
               />
               <img
-                src="assets/img/clients/unnamed.png"
+                src="tnplogo.png"
                 alt="chalu"
                 className=" self-center lg:mt-4 mt-12 lg:mx-4  lg:h-44 lg:w-44 pr-2 pb-2 h-14 w-14 sm:h-32 sm:w-32"
               />
