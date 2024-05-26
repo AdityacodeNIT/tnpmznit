@@ -3,7 +3,7 @@ import React from "react";
 const Navbar = () => {
   return (
     <div>
-      <div className="shadow-md w-full bg-[#fdffde] border-b-4 border-green-400">
+      <div className="shadow-md w-full from-[#ffdd76] to-[#87ed33]   bg-gradient-to-r border-b-4 border-green-400">
         <div className="flex flex-col lg:justify-evenly">
           <div className="md:flex flex justify-between md:p-4 lg:justify-around">
             <div className="flex sm:flex-row justify-around pl-4">
@@ -46,8 +46,8 @@ const Navbar = () => {
         </div>
         <nav>
           <div className="w-full md:flex md:items-center md:justify-between md:w-auto">
-            <div className="sm-8 md:w-full w-full py-2 justify-evenly text-white lg:font-md font-extralight text-xs lg:p-1 lg:text-sm md:text-sm flex bg-[#43920D] md:h-12 flex-wrap">
-              <p className="mx-1 text-[2vw] md:text-lg text-white">Home</p>
+            <div className="sm-8 md:w-full w-full py-2 justify-evenly text-white lg:font-semibold font-extralight text-xs lg:p-1 lg:text-sm md:text-sm flex bg-gradient-to-r  to-[#f1c130d6]  from-[#4a930edf]  md:h-12 flex-wrap">
+              <p className="mx-1 text-[2vw] md:text-lg text-white\">Home</p>
 
               <a href="#clients" className=" hover:font-semibold">
                 <p className="mx-1 text-[2vw] md:text-lg text-white">

@@ -191,7 +191,7 @@ const Hero = () => {
       </section>
 
       <section className="marquee">
-        <marquee behavior="scroll" direction="left">
+        <marquee behavior="scroll" direction="right">
           <h6>
             <a href="" target="_blank">
               Registration and JNF for TCS Hiring{" "}
@@ -199,7 +199,7 @@ const Hero = () => {
             </a>
           </h6>
         </marquee>
-        <marquee behavior="scroll" direction="right">
+        <marquee behavior="scroll" direction="left">
           <h6>
             <a href="" target="_blank">
               Registration and JNF For vedanta{" "}
