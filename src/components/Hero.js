@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./Hero.css";
 const Hero = () => {
   return (
     <div>
@@ -144,8 +144,8 @@ const Hero = () => {
               <div className="carousel-item" data-bs-interval="3000">
                 <img
                   className="d-block w-100"
-                  src="assets/img/carousel/TCS Seminar.webp"
-                  alt="TCS SEMINAR ON TCS NQT PROGRAM"
+                  src="assets/img/carousel/TCS_seminar.webp"
+                  alt="TCS SEMINAR "
                 />
                 <div className="carousel-caption d-none d-md-block">
                   <h5>TCS SEMINAR ON TCS NQT PROGRAM</h5>
@@ -155,12 +155,11 @@ const Hero = () => {
               <div className="carousel-item" data-bs-interval="3000">
                 <img
                   className="d-block w-100"
-                  src="assets/img/carousel/IMG_20240316_163221.webp"
+                  src="assets\img\carousel\IMG_20240316_163221.webp
+                "
                   alt="bashant panchatmi "
                 />
-                <div className="carousel-caption d-none d-md-block">
-                  <h5></h5>
-                </div>
+                <div className="carousel-caption d-none d-md-block"></div>
               </div>
             </div>
             <button
