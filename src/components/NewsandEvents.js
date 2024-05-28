@@ -5,8 +5,10 @@ const NewsandEvents = () => {
     <div>
       <section id="atAGlance" className="atAGlance mx-xl-3" data-aos="fade-up">
         <div className="section-title">
-          <h2>At a Glance</h2>
-          <p>
+          <h2 className="bg-gradient-to-r from-purple-500 to-pink-400 w-auto mx-24 p-2">
+            At a Glance
+          </h2>
+          <p className="font-bold">
             Various activities happening in & around the campus by Training &
             Placement Cell of NIT Mizoram
           </p>
