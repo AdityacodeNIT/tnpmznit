@@ -3,7 +3,10 @@ import "../stylesheets/Counts.css";
 import UserContext from "../context/UserContext";
 const Counts = () => {
   return (
-    <section id="counts" class="counts section-bg">
+    <section
+      id="counts"
+      class="counts section-bg bg-gradient-to-r from-purple-500 to-pink-100"
+    >
       <div class="container">
         <div class="row justify-content-end">
           <div

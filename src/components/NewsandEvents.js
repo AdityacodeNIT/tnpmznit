@@ -5,9 +5,9 @@ const NewsandEvents = () => {
     <div>
       <section id="atAGlance" className="atAGlance mx-xl-3" data-aos="fade-up">
         <div className="section-title">
-          <h2 className="bg-gradient-to-r from-purple-500 to-pink-400 w-auto mx-24 p-2">
+          <news className="text-black w-auto  mx-24 p-2 font-bold text-sm  xl:text-3xl ">
             At a Glance
-          </h2>
+          </news>
           <p className="font-bold">
             Various activities happening in & around the campus by Training &
             Placement Cell of NIT Mizoram
@@ -21,7 +21,7 @@ const NewsandEvents = () => {
             <div className="card-body">
               <p className="card-text">
                 <ul className="list-group list-group-flush">
-                  <li className="list-group-item d-flex justify-content-between align-items-center">
+                  <li className="list-group-item d-flex justify-content-between align-items-center ">
                     <a
                       href="https://www.linkedin.com/posts/training-and-placement-cell-nit-mizoram_campusplacements-oncampus-campusrecruitment-activity-7187132863744487424-9V8V?utm_source=share&utm_medium=member_desktop"
                       rel="noreferrer"
