@@ -1,5 +1,6 @@
 import React from "react";
 import ImageComponent from "./ImageComponent";
+import "../stylesheets/Clients.css";
 const TrainingandRecruitingPartners = () => {
   const CSimages = [
     "image1.webp",
@@ -90,6 +91,7 @@ const TrainingandRecruitingPartners = () => {
             {CSimages.map((image, index) => (
               <ImageComponent
                 key={index}
+                className="image-slide-in"
                 src={`assets/img/clients/3_Top Recruiters_Images_Super_Tool/${image}`}
               />
             ))}{" "}
@@ -100,6 +102,7 @@ const TrainingandRecruitingPartners = () => {
               {ECImages.map((image, index) => (
                 <ImageComponent
                   key={index}
+                  className="image-slide-in"
                   src={`assets/img/clients/3_Top Recruiters_Images_Super_Tool/${image}`}
                 />
               ))}{" "}
@@ -111,17 +114,7 @@ const TrainingandRecruitingPartners = () => {
               {ECImages.map((image, index) => (
                 <ImageComponent
                   key={index}
-                  src={`assets/img/clients/3_Top Recruiters_Images_Super_Tool/${image}`}
-                />
-              ))}{" "}
-            </div>
-            <div className="row">
-              <h3 style={{ padding: "30px" }}>
-                <strong>ELECTRICAL ENGINEERING</strong>
-              </h3>
-              {ECImages.map((image, index) => (
-                <ImageComponent
-                  key={index}
+                  className="image-slide-in"
                   src={`assets/img/clients/3_Top Recruiters_Images_Super_Tool/${image}`}
                 />
               ))}{" "}
@@ -133,6 +126,7 @@ const TrainingandRecruitingPartners = () => {
               {MEImages.map((image, index) => (
                 <ImageComponent
                   key={index}
+                  className="image-slide-in"
                   src={`assets/img/clients/3_Top Recruiters_Images_Super_Tool/${image}`}
                 />
               ))}{" "}
@@ -144,6 +138,7 @@ const TrainingandRecruitingPartners = () => {
               {CEImages.map((image, index) => (
                 <ImageComponent
                   key={index}
+                  className="image-slide-in"
                   src={`assets/img/clients/3_Top Recruiters_Images_Super_Tool/${image}`}
                 />
               ))}{" "}
