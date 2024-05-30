@@ -4,6 +4,7 @@ import Hero from "../components/Hero";
 import NewsandEvents from "../components/NewsandEvents";
 import About from "../components/About";
 import Counts from "../components/Counts";
+import WebTeam from "../components/WebTeam";
 
 const HomePage = () => {
   return (
@@ -13,6 +14,7 @@ const HomePage = () => {
       <About />
       <Counts />
       <Team />
+      <WebTeam />
     </div>
   );
 };
