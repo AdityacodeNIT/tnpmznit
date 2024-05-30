@@ -5,6 +5,7 @@ import NewsandEvents from "../components/NewsandEvents";
 import About from "../components/About";
 import Counts from "../components/Counts";
 import WebTeam from "../components/WebTeam";
+import TrainingandRecruitingPartners from "../components/TrainingandRecruitingPartners";
 
 const HomePage = () => {
   return (
@@ -15,6 +16,7 @@ const HomePage = () => {
       <Counts />
       <Team />
       <WebTeam />
+      <TrainingandRecruitingPartners />
     </div>
   );
 };
