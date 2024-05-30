@@ -29,13 +29,16 @@
 
 .team-card {
     position: relative;
-    height: 350px;
-    width: 300px;
+    height: 300px;
+    width: 250px;
     border-radius: 10px;
     margin: 30px 15px;
-    background-size: cover;
+    // background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
+    background-position: bottom;
     border: 5px solid rgb(255, 255, 255);
+    // background-color: blueviolet;
 }
 
 .team-card-bottom {
@@ -45,7 +48,7 @@
     align-items: center;
     justify-content: center;
     height: 15vh;
-    width: 290px;
+    width: 240px;
     border-radius: 0 0 10px 10px;
     margin: 0;
     background-color: rgb(62, 62, 62);
@@ -55,7 +58,7 @@
 }
 
 .team-card-bottom-on-hover {
-    width: 291px;
+    width: 241px;
     min-height: 15vh;
     position: absolute;
     bottom: 0;
@@ -88,7 +91,7 @@
         overflow-x: scroll;
     }
     .team-card {
-        height: 350px;
-        min-width: 300px;
+        height: 300px;
+        min-width: 250px;
     }
 }
