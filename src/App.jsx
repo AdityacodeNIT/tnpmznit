@@ -10,7 +10,7 @@ function App() {
     <UserContextProvider>
       <BrowserRouter>
         <Navbar />
-        <Hero/>
+       
         <Routes>
            <Route path="/" element={<HomePage />} /> 
         </Routes>
