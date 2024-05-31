@@ -4,6 +4,7 @@ import Navbar from "./components/MainComponent/Navbar.js";
 import HomePage from "./pages/HomePage.js";
 import UserContextProvider from "./context/UserContextProvider.jsx";
 import Hero from "./components/Hero.js";
+import FooterSection from "./components/FooterSection.js";
 
 function App() {
   return (
@@ -14,6 +15,8 @@ function App() {
         <Routes>
            <Route path="/" element={<HomePage />} /> 
         </Routes>
+
+        <FooterSection />
       </BrowserRouter>
     </UserContextProvider>
   );
