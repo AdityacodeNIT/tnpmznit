@@ -8,6 +8,8 @@ import WebTeam from "../components/WebTeamMember";
 import TrainingandRecruitingPartners from "../components/TrainingandRecruitingPartners";
 import TestimonialSection from "../components/Testimonial2Section";
 import CTAsection from "../components/CTAsection";
+import Contact from "../components/Contact";
+import Map from "../components/map";
 const HomePage = () => {
   return (
     <div>
@@ -16,11 +18,12 @@ const HomePage = () => {
       <About />
       <Counts />
       <Team />
-      <WebTeam />
       <TrainingandRecruitingPartners />
-
       <TestimonialSection />
+      <WebTeam />
       <CTAsection />
+      <Contact />
+      <Map />
     </div>
   );
 };
