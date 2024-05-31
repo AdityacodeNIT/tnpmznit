@@ -7,6 +7,7 @@ import Counts from "../components/Counts";
 import WebTeam from "../components/WebTeam";
 import TrainingandRecruitingPartners from "../components/TrainingandRecruitingPartners";
 
+import TestimonialSection from "../components/Testimonial2Section";
 const HomePage = () => {
   return (
     <div>
@@ -17,6 +18,8 @@ const HomePage = () => {
       <Team />
       <WebTeam />
       <TrainingandRecruitingPartners />
+
+      <TestimonialSection />
     </div>
   );
 };
