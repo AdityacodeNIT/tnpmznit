@@ -1,7 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from "aos";
 import ImageComponent from "./ImageComponent";
+import "aos/dist/aos.css";
 import "../stylesheets/Clients.css";
 const TrainingandRecruitingPartners = () => {
+  useEffect(() => {
+    const offset = window.innerWidth < 768 ? 50 : 200; // adjust values as needed
+    AOS.init({ offset, disable: "up" });
+  }, []);
+
   const CSimages = [
     "image1.webp",
     "image51.webp",
@@ -84,7 +91,7 @@ const TrainingandRecruitingPartners = () => {
               intern and work with best companies.
             </p>
           </div>
-          <div className="row">
+          <div className="row " data-aos="fade-up" data-aos-delay="500">
             <h3 style={{ padding: "30px" }}>
               <strong>COMPUTER SCIENCE AND ENGINEERING</strong>
             </h3>
@@ -95,7 +102,7 @@ const TrainingandRecruitingPartners = () => {
                 src={`assets/img/clients/3_Top Recruiters_Images_Super_Tool/${image}`}
               />
             ))}{" "}
-            <div className="row">
+            <div className="row " data-aos="fade-up" data-aos-delay="500">
               <h3 style={{ padding: "30px" }}>
                 <strong>ELECTRONICS AND COMMUNICATION ENGINEERING</strong>
               </h3>
@@ -107,7 +114,7 @@ const TrainingandRecruitingPartners = () => {
                 />
               ))}{" "}
             </div>
-            <div className="row">
+            <div className="row" data-aos="fade-up" data-aos-delay="500">
               <h3 style={{ padding: "30px" }}>
                 <strong>ELECTRICAL ENGINEERING</strong>
               </h3>
@@ -119,7 +126,7 @@ const TrainingandRecruitingPartners = () => {
                 />
               ))}{" "}
             </div>
-            <div className="row">
+            <div className="row" data-aos="fade-up" data-aos-delay="500">
               <h3 style={{ padding: "30px" }}>
                 <strong>MECHANICAL ENGINEERING</strong>
               </h3>
@@ -131,7 +138,7 @@ const TrainingandRecruitingPartners = () => {
                 />
               ))}{" "}
             </div>
-            <div className="row">
+            <div className="row" data-aos="fade-up" data-aos-delay="500">
               <h3 style={{ padding: "30px" }}>
                 <strong>CIVIL ENGINEERING</strong>
               </h3>
