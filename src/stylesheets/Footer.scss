@@ -1,4 +1,4 @@
-.footer-section-container{
+.footer-section-container {
     height: auto;
     width: 100%;
     padding: 20px;
@@ -9,21 +9,21 @@
     background-color: #24262b;
 }
 
-.footer-section-top{
+.footer-section-top {
     width: auto;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
 }
 
-.footer-section-left{
+.footer-section-left {
     width: auto;
     display: flex;
     flex-wrap: wrap;
     // background-color: rgb(193, 211, 211);
 }
 
-.footer-section-right{
+.footer-section-right {
     width: auto;
     display: flex;
     flex-direction: column;
@@ -31,15 +31,15 @@
     padding: 10px 50px;
 }
 
-.footer-col{
+.footer-col {
     padding: 10px 50px;
 }
 
-.footer-col li{
+.footer-col li {
     padding: 5px 0;
 }
 
-.footer-socials{
+.footer-socials {
     display: flex;
     padding: 20px 0;
 }
@@ -56,49 +56,51 @@
     transition: background-color 0.3s;
     box-shadow: 2px 2px 1px 3px #444444;
     cursor: pointer;
-  }
+}
 
-  .footer-social-icon:hover {
+.footer-social-icon:hover {
     transition: all 0.5s;
     transform: scale(1.2);
-  }
+}
 
-  .footer-follow-text{
+.footer-follow-text {
     // color:green;
-    display:inline-block;
-    position:relative;
+    display: inline-block;
+    position: relative;
     font-size: 1.5rem;
     color: #fff;
-    
-  }
 
-  .footer-list-item {
+}
+
+.footer-list-item {
     // margin-bottom: 10px;
     position: relative;
     // padding-left: 20px;
-    color: #bbbbbb; /* Text color */
-  }
-  
-  .footer-list-item::before {
+    color: #bbbbbb;
+    /* Text color */
+}
+
+.footer-list-item::before {
     content: "•";
     position: absolute;
     left: 0;
-    color: #444444 /* Bullet color */
-  }
+    color: #444444
+        /* Bullet color */
+}
 
-  .footer-follow-text::after{
-    content:'';
-  height:2px;
-  width:30%;
-  background:#e91e63;
-  position:absolute;
-  left:0;
-  bottom:-5px;
-  }
+.footer-follow-text::after {
+    content: '';
+    height: 2px;
+    width: 30%;
+    background: #e91e63;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+}
 
-  .footer-section-bottom{
+.footer-section-bottom {
     padding: 15px 0;
     font-size: 1.2rem;
     text-align: center;
     color: #444444;
-  }
+}

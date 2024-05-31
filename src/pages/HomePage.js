@@ -4,7 +4,7 @@ import Hero from "../components/Hero";
 import NewsandEvents from "../components/NewsandEvents";
 import About from "../components/About";
 import Counts from "../components/Counts";
-import WebTeam from "../components/WebTeam";
+import WebTeam from "../components/WebTeamMember";
 import TrainingandRecruitingPartners from "../components/TrainingandRecruitingPartners";
 
 const HomePage = () => {
@@ -17,6 +17,7 @@ const HomePage = () => {
       <Team />
       <WebTeam />
       <TrainingandRecruitingPartners />
+      
     </div>
   );
 };
