@@ -21,11 +21,11 @@ const DirectorsMessage = () => {
                         </div>
                         <div className="member-info">
                             <h4>Prof. S. Sundar</h4>
-                            <span>Director NIT Mizoram</span>
+                            <span>Director, NIT Mizoram</span>
                         </div>
                     </div>
                 </div>
-                <div className="col-lg-9 col-md-6">
+                <div className="col-lg-9 col-md-6 director-message">
                     <p style={{ textAlign: "justify" }}>
                         <i className="fa-solid fa-quote-left"></i> Greetings from the
                         Training & Placement (T&P) Office, National Institute of
