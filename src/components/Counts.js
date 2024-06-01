@@ -11,7 +11,7 @@ const Counts = () => {
               align-items-md-stretch"
           >
             <div class="count-box">
-              <span>200</span>
+              <span>85%</span>
               <p>Students Placed in Session 2023-24</p>
             </div>
           </div>
@@ -21,7 +21,7 @@ const Counts = () => {
               align-items-md-stretch"
           >
             <div class="count-box">
-              <span>500</span>
+              <span>90%</span>
               <p>Students Completed their Internship & Summer Training</p>
             </div>
           </div>
@@ -31,7 +31,7 @@ const Counts = () => {
               align-items-md-stretch"
           >
             <div class="count-box">
-              <span>20</span>
+              <span>14</span>
               <p>Highest Package of B.Tech. Students (in LPA)</p>
             </div>
           </div>
@@ -41,9 +41,9 @@ const Counts = () => {
               align-items-md-stretch"
           >
             <div class="count-box">
-              <span>10</span>
+              <span>19</span>
               <a href="https://NIT Mizoram.ac.in/mous/">
-                <p>MoU & Training Programs Singed with Other Institutions</p>
+                <p>MoU & Training Programs Signed with Other Institutions</p>
               </a>
             </div>
           </div>

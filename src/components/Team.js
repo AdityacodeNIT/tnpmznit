@@ -16,7 +16,7 @@ const Team = () => {
     {
       name: "Dr. Ashish Singh Patel",
       position: "FIC, Alumni",
-      linkedin: "https://www.linkedin.com/in/dr-ashish-singh-patel-84818123",
+
       email: "ashish.cse@nitmz.ac.in",
       image_name: "dr_ashish_singh.png",
     },
@@ -51,7 +51,7 @@ const Team = () => {
     {
       name: "Dr. Vijay Mandal",
       position: "TPO, ME",
-      linkedin: "https://www.linkedin.com/in/dr-vijay-mandal-97b239136",
+
       email: "vijay.me@nitmz.ac.in",
       image_name: "dr_vijay1.png",
     },
@@ -341,207 +341,12 @@ const Team = () => {
               <div>{member.name}</div>
             </div>
             <div className="team-card-bottom-on-hover flex justify-around align-middle  align-item-center px-4 items-center">
-              <div>
-                <div>{member.name}</div>
-                <div
-                  dangerouslySetInnerHTML={{ __html: `${member.position}` }}
-                ></div>
-
-                <div>Email: {member.email}</div>
-              </div>
-
-              <div className="align-middle">
-                <a
-                  href={member.linkedin}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img
-                    src="assets/img/team/linkedin.png"
-                    alt="LinkedIn"
-                    style={{ width: "20px", height: "20px" }}
-                  />
-                </a>
-              </div>
-            </div>
-          </div>
-        ))}
-      </div>
-
-      <h4 className="team-container-sub-title lg:text-2xl md:text-xl text-md">
-        Graduate Executives
-      </h4>
-      <div className="team-card-container">
-        {/* Mapping over the teamMembers array to generate card elements */}
-        {graduateExecutives.map((graduateexecutive, index) => (
-          <div
-            className="team-card"
-            key={index}
-            style={{
-              backgroundImage: `url(${process.env.PUBLIC_URL}/assets/img/team/${graduateexecutive.image_name})`,
-            }}
-          >
-            <div className="team-card-bottom">
-              <div>{graduateexecutive.name}</div>
-            </div>
-            <div className="team-card-bottom-on-hover flex justify-around align-middle  align-item-center px-4 items-center ">
-              <div>
-                <div className="font-bold">{graduateexecutive.name}</div>
-                <div
-                  dangerouslySetInnerHTML={{
-                    __html: `${graduateexecutive.position}`,
-                  }}
-                ></div>
-                <div> {graduateexecutive.branch}</div>
-                <div> {graduateexecutive.designation}</div>
-              </div>
-              <div className="align-middle">
-                <a
-                  href={graduateexecutive.linkedin}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img
-                    src="assets/img/team/linkedin.png"
-                    alt="LinkedIn"
-                    style={{ width: "20px", height: "20px" }}
-                  />
-                </a>
-              </div>
-            </div>
-          </div>
-        ))}
-      </div>
-
-      <h4 className="team-container-sub-title lg:text-2xl md:text-xl text-md">
-        STUDENT PLACEMENT COORDINATORS
-      </h4>
-      <div className="team-card-container">
-        {/* Mapping over the teamMembers array to generate card elements */}
-        {studentPlacementcordinators.map((placementcoordinator, index) => (
-          <div
-            className="team-card"
-            key={index}
-            style={{
-              backgroundImage: `url(${process.env.PUBLIC_URL}/assets/img/team/${placementcoordinator.image_name})`,
-            }}
-          >
-            <div className="team-card-bottom">
-              <div>{placementcoordinator.name}</div>
-            </div>
-            <div className="team-card-bottom-on-hover flex justify-around align-middle  align-item-center px-4 items-center ">
-              <div>
-                <div className="font-bold">{placementcoordinator.name}</div>
-                <div
-                  dangerouslySetInnerHTML={{
-                    __html: `${placementcoordinator.position}`,
-                  }}
-                ></div>
-                <div> {placementcoordinator.branch}</div>
-                <div> {placementcoordinator.designation}</div>
-              </div>
-              <div className="align-middle">
-                <a
-                  href={placementcoordinator.linkedin}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img
-                    src="assets/img/team/linkedin.png"
-                    alt="LinkedIn"
-                    style={{ width: "20px", height: "20px" }}
-                  />
-                </a>
-              </div>
-            </div>
-          </div>
-        ))}
-      </div>
-      <h4 className="team-container-sub-title lg:text-2xl md:text-xl text-md">
-        Student Activity Cordinators (2025 Batch){" "}
-      </h4>
-      <div className="team-card-container">
-        {/* Mapping over the teamMembers array to generate card elements */}
-        {studentActivityCoordinators2025.map((activityCoordinator, index) => (
-          <div
-            className="team-card"
-            key={index}
-            style={{
-              backgroundImage: `url(${process.env.PUBLIC_URL}/assets/img/team/${activityCoordinator.image_name})`,
-            }}
-          >
-            <div className="team-card-bottom">
-              <div>{activityCoordinator.name}</div>
-            </div>
-            <div className="team-card-bottom-on-hover flex justify-around align-middle  align-item-center px-4 items-center ">
-              <div>
-                <div className="font-bold">{activityCoordinator.name}</div>
-                <div
-                  dangerouslySetInnerHTML={{
-                    __html: `${activityCoordinator.position}`,
-                  }}
-                ></div>
-                <div> {activityCoordinator.branch}</div>
-                <div> {activityCoordinator.designation}</div>
-              </div>
-              <div className="align-middle">
-                <a
-                  href={activityCoordinator.linkedin}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img
-                    src="assets/img/team/linkedin.png"
-                    alt="LinkedIn"
-                    style={{ width: "20px", height: "20px" }}
-                  />
-                </a>
-              </div>
-            </div>
-          </div>
-        ))}
-      </div>
-
-      <h4 className="team-container-sub-title lg:text-2xl md:text-xl text-md">
-        Student Activity Cordinators (2026 Batch){" "}
-      </h4>
-      <div className="team-card-container">
-        {/* Mapping over the teamMembers array to generate card elements */}
-        {studentActivityCoordinators2026.map((activityCoordinator, index) => (
-          <div
-            className="team-card"
-            key={index}
-            style={{
-              backgroundImage: `url(${process.env.PUBLIC_URL}/assets/img/team/${activityCoordinator.image_name})`,
-            }}
-          >
-            <div className="team-card-bottom">
-              <div>{activityCoordinator.name}</div>
-            </div>
-            <div className="team-card-bottom-on-hover flex justify-around align-middle  align-item-center px-4 items-center ">
-              <div>
-                <div className="font-bold">{activityCoordinator.name}</div>
-                <div
-                  dangerouslySetInnerHTML={{
-                    __html: `${activityCoordinator.position}`,
-                  }}
-                ></div>
-                <div> {activityCoordinator.branch}</div>
-                <div> {activityCoordinator.designation}</div>
-              </div>
-              <div className="align-middle">
-                <a
-                  href={activityCoordinator.linkedin}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img
-                    src="assets/img/team/linkedin.png"
-                    alt="LinkedIn"
-                    style={{ width: "20px", height: "20px" }}
-                  />
-                </a>
-              </div>
+              <div>{member.name}</div>
+              <div
+                dangerouslySetInnerHTML={{ __html: `${member.position}` }}
+              ></div>
+              <div>Phone: {member.phone}</div>
+              <div>Email: {member.email}</div>
             </div>
           </div>
         ))}
