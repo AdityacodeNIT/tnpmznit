@@ -53,7 +53,7 @@ const Team = () => {
       position: "TPO, ME",
 
       email: "vijay.me@nitmz.ac.in",
-      image_name: "dr_vijay1.png",
+      image_name: "dr_vijay2.png",
     },
   ];
 
@@ -157,14 +157,14 @@ const Team = () => {
       position: "Activity Coordinator",
       branch: "CE",
       linkedin: "",
-      image_name: "ayush_raj.png",
+      image_name: "dummy.png",
     },
     {
       name: "Kishor Malakar",
       position: "Activity Coordinator",
       branch: "MT CIR",
       linkedin: "",
-      image_name: "nihal_kumar.png",
+      image_name: "dummy.png",
     },
   ];
 
@@ -220,7 +220,7 @@ const Team = () => {
       position: "Executive Members",
       branch: "CS",
       linkedin: "https://www.linkedin.com/in/rahul-kumar-8a9a7825b ",
-      image_name: "jyoti.png",
+      image_name: "dummy.png",
     },
     {
       name: "Prachi Gupta",
@@ -265,7 +265,7 @@ const Team = () => {
       position: "Associate Members",
       branch: "EC",
       linkedin: "",
-      image_name: ".jpg",
+      image_name: "dummy.png",
     },
     {
       name: "Mudavath Pooja",
@@ -279,7 +279,7 @@ const Team = () => {
       position: "Associate Members",
       branch: "EE",
       linkedin: " ",
-      image_name: "",
+      image_name: "dummy.png",
     },
   ];
 
