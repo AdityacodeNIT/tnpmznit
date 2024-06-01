@@ -16,7 +16,6 @@ const Team = () => {
       name: "Dr. Ashish Singh Patel",
       position: "FIC, Alumni",
       phone: "+91-8839341501",
-      email: "",
       image_name: "dr_ashish_singh.png",
     },
     {
@@ -52,7 +51,7 @@ const Team = () => {
       position: "TPO, ME",
       phone: "+91-9661164031",
       email: "",
-      image_name: "dr_vijay1.png",
+      image_name: "dr_vijay2.png",
     },
   ];
 
@@ -184,7 +183,7 @@ const Team = () => {
                 dangerouslySetInnerHTML={{ __html: `${member.position}` }}
               ></div>
               <div>Phone: {member.phone}</div>
-              <div>Email: {member.email}</div>
+              {/* <div>Email: {member.email}</div> */}
             </div>
           </div>
         ))}

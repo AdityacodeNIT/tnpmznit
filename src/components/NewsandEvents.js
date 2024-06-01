@@ -3,9 +3,9 @@ import "../stylesheets/NewsandEvents.css";
 const NewsandEvents = () => {
   return (
     <div className="events-section-container">
-      <section id="atAGlance" className="atAGlance mx-xl-3" data-aos="fade-up">
+      <section id="atAGlance" className="atAGlance" data-aos="fade-up">
         <div className="section-title">
-          <news className="text-black w-auto  mx-24 p-2 font-bold text-sm  xl:text-3xl ">
+          <news className="at-a-glance-title">
             At a Glance
           </news>
           <p className="font-bold">

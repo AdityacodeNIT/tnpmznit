@@ -51,7 +51,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 10vh;
+    height: 8vh;
     width: 240px;
     border-radius: 0 0 10px 10px;
     margin: 0;
@@ -63,10 +63,10 @@
 
 .team-card-bottom-on-hover {
     width: 241px;
-    min-height: 15vh;
+    min-height: 10vh;
     position: absolute;
     bottom: 0;
-    background: #f1eeee;
+    // background: #f1eeee;
     // opacity: 0.7;
     transition: transform 0.5s;
     transform: scaleY(0);
@@ -76,7 +76,10 @@
     text-align: center;
     justify-content: center;
     border-radius: 0 0 5px 5px;
-    color: #000000;
+    // color: #000000;
+    background-color: rgb(62, 62, 62);
+    opacity: 0.7;
+    color: #ffffff;
 }
 
 .team-card:hover .team-card-bottom {
@@ -88,6 +91,11 @@
 }
 
 @media (max-width: 1200px) {
+    .team-container {
+        // background-color: aqua;
+        padding: 50px 0 0 0;
+        text-align: center;
+    }
     .team-card-container{ 
         width: 90%;       
         display: flex;

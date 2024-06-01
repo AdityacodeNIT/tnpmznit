@@ -1,6 +1,7 @@
 .about{
   width : 90%;
   margin: 0 auto;
+  /* background-color: gray; */
 }
 .about .content h3 {
     font-weight: 600;
@@ -58,3 +59,50 @@
     text-decoration: none;
   }
   
+  .director-message-container{
+    width: 60%;
+    /* background-color: gray; */
+    display: flex;
+    flex-direction : column;
+    align-items: center;
+  }
+
+  .director-message-container-title{
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 0;
+    color: #124265;
+  }
+
+  .director-message-container .row{
+    display: flex;
+    flex-direction : column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .member-info{
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+
+  @media (max-width: 768px) {
+    .director-message-container{
+      width: 100%;
+      /* background-color: gray; */
+      display: flex;
+      flex-direction : column;
+      align-items: center;
+      padding: 50px 0 0 0;
+    }
+
+    .member{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      /* background-color: gray; */
+    }
+  }
