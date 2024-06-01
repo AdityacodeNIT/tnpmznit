@@ -1,29 +1,46 @@
-import React from "react";
-import '../stylesheets/webteam.scss'
+import React, { useState, useEffect } from "react";
+import '../stylesheets/webteam.scss';
 
 const WebTeam = () => {
   const associateMembers = [
     { name: "Ayush raj", position: "Website Team Lead", image_name: "Ayush_web.jpg" },
-    { name: "Sharda Kumari", position: "Coordinatior, Web Team", image_name: "sharda_web.jpg" },
-    { name: "Prachi Gupta", position: "Coordinatior, Web Team", year: "3rd year, ECE", image_name: "Prachi_web.png" },
-    { name: "Dharmendra Chaudhary", position: "Coordinatior, Web Team", year: "3rd year, ECE", image_name: "Dharmendra_web.jpg" },
-    { name: "Aditya Srivastav", position: "Coordinatior, Web Team", year: "2nd year, ECE", image_name: "Aditya_web.jpg" },
-  ]
+    { name: "Sharda Kumari", position: "Coordinator, Web Team", image_name: "sharda_web.jpg" },
+    { name: "Prachi Gupta", position: "Coordinator, Web Team", year: "3rd year, ECE", image_name: "Prachi_web.png" },
+    { name: "Dharmendra Chaudhary", position: "Coordinator, Web Team", year: "3rd year, ECE", image_name: "Dharmendra_web.jpg" },
+    { name: "Aditya Srivastav", position: "Coordinator, Web Team", year: "2nd year, ECE", image_name: "Aditya_web.jpg" },
+  ];
+
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentIndex(prevIndex => (prevIndex + 2) % associateMembers.length);
+    }, 4000);
+
+    return () => clearInterval(interval);
+  }, [associateMembers.length]);
+
+  const getVisibleMembers = () => {
+    const firstIndex = currentIndex;
+    const secondIndex = (currentIndex + 1) % associateMembers.length;
+    return [associateMembers[firstIndex], associateMembers[secondIndex]];
+  };
+
   return (
     <div className="web-team-container">
       <h2 className='web-team-container-title'>Development Team</h2>
       <div className="web-team-canvas">
-      {associateMembers.map((associate, index) => (
-        <div className={`web-team-card-container position${index % 6}`} key={index}>
-          <div className='web-team-card' key={index} style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/assets/img/webteam/${associate.image_name})` }}>
+        {getVisibleMembers().map((associate, index) => (
+          <div className={`web-team-card-container position${index % 6}`} key={index}>
+            <div className='web-team-card' style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/assets/img/webteam/${associate.image_name})` }}>
+            </div>
+            <div className='web-team-card-bottom'>
+              <div>{associate.name}</div>
+              <div dangerouslySetInnerHTML={{ __html: `${associate.position}` }}></div>
+              <div>{associate.year}</div>
+            </div>
           </div>
-          <div className='web-team-card-bottom'>
-            <div>{associate.name}</div>
-            <div dangerouslySetInnerHTML={{ __html: `${associate.position}` }}></div>
-            <div>{associate.year}</div>
-          </div>
-        </div>
-      ))}
+        ))}
       </div>
     </div>
   );

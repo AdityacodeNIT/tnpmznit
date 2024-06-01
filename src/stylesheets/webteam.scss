@@ -60,8 +60,16 @@
     text-transform: uppercase;
     color: #fff;
 }
+  
 
-.position0 {
+
+
+@media (min-width: 768px) {
+  .web-team-card-container {
+    max-width: calc(33.333% - 20px);
+    flex-basis: calc(33.333% - 20px);
+  }
+  .position0 {
     margin-top: 250px;
   }
   
@@ -80,18 +88,30 @@
   .position4 {
     margin-top: 200px;
   }
-  
+}
 
+@media (max-width: 768px) {
+  .web-team-card {
+    height: 250px;
+    width: 180px;
+}
+.position0 {
+  margin-top: 250px;
+}
 
-@media (max-width: 1200px) {
-    .web-team-card-container{ 
-        width: 90%;       
-        display: flex;
-        flex-wrap: nowrap;
-        overflow-x: scroll;
-    }
-    .web-team-card {
-        height: 250px;
-        min-width: 200px;
-    }
+.position1 {
+  margin-top: 120px;
+}
+
+.position2 {
+  margin-top: 50px;
+}
+
+.position3 {
+  margin-top: 40px;
+}
+
+.position4 {
+  margin-top: 100px;
+}
 }

@@ -2,7 +2,7 @@ import React from "react";
 import "../stylesheets/NewsandEvents.css";
 const NewsandEvents = () => {
   return (
-    <div>
+    <div className="events-section-container">
       <section id="atAGlance" className="atAGlance mx-xl-3" data-aos="fade-up">
         <div className="section-title">
           <news className="text-black w-auto  mx-24 p-2 font-bold text-sm  xl:text-3xl ">

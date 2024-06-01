@@ -29,8 +29,6 @@ section {
 
 
 
-
-
 #atAGlance .card {
     height: 85vh;
     overflow-y: scroll !important;
@@ -76,4 +74,3 @@ section {
   #atAGlance .card-body .card-text ul li a:hover {
     color: #43920D;
   }
-  
