@@ -13,7 +13,7 @@ const Navbar = () => {
                 className="self-center mt-4 mr-4 2xl:w-44 2xl:h-44 lg:h-32 sm:h-32 sm:w-32 h-16 w-16 lg:ml-4"
               />
             </div>
-            <div className="flex flex-col lg:flex-row items-center text-center justify-between mt-4 px-4 lg:mt-0 lg:px-8">
+            <div className="flex flex-col lg:ml-8 lg:flex-row items-center text-center justify-between mt-4 px-4 lg:mt-0 lg:px-8">
               <div className="justify-between">
                 <p className="text-slate-600 lg:font-bold md:font-bold font-md lg:text-xl 2xl:text-2xl md:text-xl sm:text-lg text-xs">
                   प्रशिक्षण एवं नियोजन कार्यालय
@@ -60,7 +60,7 @@ const Navbar = () => {
                 </p>
               </a>
 
-              <a href="#atAGlanc" className=" hover:font-semibold">
+              <a href="#atAGlance" className=" hover:font-semibold">
                 <p className="mx-1 text-[2vw] md:text-lg text-white">
                   At A Glance
                 </p>
@@ -79,12 +79,10 @@ const Navbar = () => {
                 <p className="mx-1 text-[2vw] md:text-lg text-white">Team</p>
               </a>
               <a
-                href="#team"
+                href="#cta"
                 className="hover:text-pink-300 hover:font-semibold"
               >
-                <p className="mx-1 text-[2vw] md:text-lg text-white">
-                  Facilities
-                </p>
+                <p className="mx-1 text-[2vw] md:text-lg text-white">CTA</p>
               </a>
               <a
                 href="#contact"
