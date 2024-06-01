@@ -63,20 +63,19 @@
 
 .team-card-bottom-on-hover {
     width: 241px;
-    min-height: 15vh;
+    min-height: 12vh;
     position: absolute;
+
     bottom: 0;
-    background: #f1eeee;
+    background-color: #e8ecf4;
+    opacity: 0.8;
     // opacity: 0.7;
     transition: transform 0.5s;
     transform: scaleY(0);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
+   
+  
     border-radius: 0 0 5px 5px;
-    color: #000000;
+    color: black;
 }
 
 .team-card:hover .team-card-bottom {

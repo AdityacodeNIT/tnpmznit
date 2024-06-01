@@ -56,42 +56,136 @@ const Team = () => {
     },
   ];
 
-  const studentCoordinators = [
+  const studentPlacementcordinators = [
     {
-      name: "Nitin Mishra",
-      position: "Team Lead, Coordinator",
-      phone: "+91-8271367165",
-      image_name: "nishant_nitin_mishra.png",
+      name: "Vikash Kumar",
+      position: "Placement Coordinator",
+      branch: "ME",
+      linkedin: "",
+      image_name: "vikash_kumar.png",
+      designation: "Team Lead",
     },
     {
-      name: "Mukul Pathak",
-      position: "Coordinator, CE",
-      phone: "Coordinator, CE",
-      image_name: "mukul_pathak.png",
+      name: "Sanjeevni Joshi",
+      position: "Placement Coordinator",
+      branch: "ECE",
+      linkedin: "",
+      image_name: "sanjeevani_joshi1.png",
     },
     {
-      name: "Abhishek",
-      position: "Coordinator, CSE",
-      phone: "+91-9264270247",
+      name: "Siddharth Bhatt",
+      position: "Placement Coordinator",
+      branch: "CSE",
+      linkedin: "",
+      image_name: "siddharth.png",
+    },
+
+    {
+      name: "Shubham Kumar",
+      position: "Placement Coordinator",
+      branch: "CE",
+      linkedin: "",
+      image_name: "shubham_kumar.png",
+    },
+
+    {
+      name: "Pratima Prit",
+      position: "Placement-Coordinator",
+      branch: "EEE",
+      linkedin: "",
+      image_name: "pratimaprit.png",
+    },
+    {
+      name: "Shashank Shekhar",
+      position: "Placement-Coordinator",
+      branch: "MT CIR",
+      linkedin: "",
+      image_name: "Shashank_shekhar.jpg",
+    },
+  ];
+
+  const studentActivityCoordinators2025 = [
+    {
+      name: "Khusbhu Kumari",
+      position: " Activity Coordinator",
+      position: "Activity Cordinator",
+      branch: "CSE",
+      designation: "Team-Lead",
       image_name: "avishek_gope.png",
     },
     {
-      name: "Ayush Raj",
-      position: "Coordinator, ECE",
-      phone: "+91-7254905694",
+      name: "Yazat Mishra",
+      position: "Activity Cordinator",
+      branch: "ECE",
+      linkedin: "",
+      image_name: "yazatmishra.png",
+    },
+    {
+      name: "Prashant Kumar",
+      position: "Activity Coordinator",
+      branch: "EEE",
+      linkedin: "",
+      image_name: "prashant_kumar.png",
+    },
+    {
+      name: "Vishal Singh",
+      position: "Activity Coordinator",
+      branch: "ME",
+      linkedin: "",
+      image_name: "vishal_singh.png",
+    },
+    {
+      name: "Rahul Kumar Prajapati ",
+      position: "Activity Coordinator",
+      branch: "CE",
+      linkedin: "",
       image_name: "ayush_raj.png",
     },
     {
-      name: "Nihal Kumar",
-      position: "Coordinator, EEE",
-      phone: "+91-7379082567",
+      name: "Kishor Malakar",
+      position: "Activity Coordinator",
+      branch: "MT CIR",
+      linkedin: "",
       image_name: "nihal_kumar.png",
     },
+  ];
+
+  const studentActivityCoordinators2026 = [
     {
-      name: "Palli Chanikya",
-      position: "Coordinator, ME",
-      phone: "+91-8520934874",
-      image_name: "chanikya.png",
+      name: "Suman Kumar Verma",
+      position: "Activity Cordinator",
+      branch: "ECE",
+      linkedin: "",
+      image_name: "yazatmishra.png",
+    },
+    {
+      name: "Abhinav Gupta",
+      linkedin: "",
+      position: "Activity Cordinator",
+      branch: "ME",
+      image_name: "avishek_gope.png",
+    },
+
+    {
+      name: "Md.Sibtain",
+      position: "Activity Coordinator",
+      branch: "CSE",
+      linkedin: "",
+      image_name: "md.png",
+    },
+    {
+      name: "Rahul Kumar",
+      position: "Activity Coordinator",
+      branch: "CE",
+      linkedin: "",
+      image_name: "vishal_singh.png",
+    },
+    {
+      name: "Rohit Kumar Gupta ",
+      position: "Activity Coordinator",
+      branch: "EEE",
+      linkedin: "",
+      image_name: "Rohit_gupta.png",
     },
   ];
 
@@ -128,39 +222,6 @@ const Team = () => {
     },
   ];
 
-  const associateMembers = [
-    {
-      name: "Rahul Kumar Prajapati",
-      position: "3rd Year, CE",
-      phone: "+91-6009926880",
-      image_name: "rahul_prajapati.png",
-    },
-    {
-      name: "Siddharth Bhatt",
-      position: "3rd Year, CSE",
-      phone: "+91-8104399697",
-      image_name: "siddharth_bhatt.png",
-    },
-    {
-      name: "Sanjeevni Joshi",
-      position: "3rd Year, ECE",
-      phone: "+91- 8414069740",
-      image_name: "sanjeevani_joshi.png",
-    },
-    {
-      name: "Girish Chawda",
-      position: "3rd Year, EE",
-      phone: "+91-6260882502",
-      image_name: "girish_chawda.png",
-    },
-    {
-      name: "Vikash Kumar",
-      position: "3rd Year, ME",
-      phone: "+91-9508279514",
-      image_name: "vikash_kumar.png",
-    },
-  ];
-
   return (
     <div className="team-container" id="team">
       <h2 className="team-container-title">OUR TEAM</h2>
@@ -190,51 +251,134 @@ const Team = () => {
         ))}
       </div>
       <h4 className="team-container-sub-title">
-        CORE TEAM STUDENT COORDINATORS
+        STUDENT PLACEMENT COORDINATORS
       </h4>
       <div className="team-card-container">
         {/* Mapping over the teamMembers array to generate card elements */}
-        {studentCoordinators.map((coordinator, index) => (
+        {studentPlacementcordinators.map((placementcoordinator, index) => (
           <div
             className="team-card"
             key={index}
             style={{
-              backgroundImage: `url(${process.env.PUBLIC_URL}/assets/img/team/${coordinator.image_name})`,
+              backgroundImage: `url(${process.env.PUBLIC_URL}/assets/img/team/${placementcoordinator.image_name})`,
             }}
           >
             <div className="team-card-bottom">
-              <div>{coordinator.name}</div>
+              <div>{placementcoordinator.name}</div>
             </div>
-            <div className="team-card-bottom-on-hover">
-              <div>{coordinator.name}</div>
-              <div
-                dangerouslySetInnerHTML={{ __html: `${coordinator.position}` }}
-              ></div>
-              <div>Phone: {coordinator.phone}</div>
+            <div className="team-card-bottom-on-hover flex justify-around align-middle  align-item-center px-4 items-center ">
+              <div>
+                <div className="font-bold">{placementcoordinator.name}</div>
+                <div
+                  dangerouslySetInnerHTML={{
+                    __html: `${placementcoordinator.position}`,
+                  }}
+                ></div>
+                <div> {placementcoordinator.branch}</div>
+                <div> {placementcoordinator.designation}</div>
+              </div>
+              <div className="align-middle">
+                <a
+                  href={placementcoordinator.linkedin}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src="assets/img/team/linkedin.png"
+                    alt="LinkedIn"
+                    style={{ width: "20px", height: "20px" }}
+                  />
+                </a>
+              </div>
             </div>
           </div>
         ))}
       </div>
-      <h4 className="team-container-sub-title">EXECUTIVE MEMBERS</h4>
+      <h4 className="team-container-sub-title">
+        Student Activity Cordinators (2025 Batch){" "}
+      </h4>
       <div className="team-card-container">
         {/* Mapping over the teamMembers array to generate card elements */}
-        {executiveMembers.map((executive, index) => (
+        {studentActivityCoordinators2025.map((activityCoordinator, index) => (
           <div
             className="team-card"
             key={index}
             style={{
-              backgroundImage: `url(${process.env.PUBLIC_URL}/assets/img/team/${executive.image_name})`,
+              backgroundImage: `url(${process.env.PUBLIC_URL}/assets/img/team/${activityCoordinator.image_name})`,
             }}
           >
             <div className="team-card-bottom">
-              <div>{executive.name}</div>
+              <div>{activityCoordinator.name}</div>
             </div>
-            <div className="team-card-bottom-on-hover">
-              <div>{executive.name}</div>
-              <div
-                dangerouslySetInnerHTML={{ __html: `${executive.position}` }}
-              ></div>
-              <div>Phone: {executive.phone}</div>
+            <div className="team-card-bottom-on-hover flex justify-around align-middle  align-item-center px-4 items-center ">
+              <div>
+                <div className="font-bold">{activityCoordinator.name}</div>
+                <div
+                  dangerouslySetInnerHTML={{
+                    __html: `${activityCoordinator.position}`,
+                  }}
+                ></div>
+                <div> {activityCoordinator.branch}</div>
+                <div> {activityCoordinator.designation}</div>
+              </div>
+              <div className="align-middle">
+                <a
+                  href={activityCoordinator.linkedin}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src="assets/img/team/linkedin.png"
+                    alt="LinkedIn"
+                    style={{ width: "20px", height: "20px" }}
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+
+      <h4 className="team-container-sub-title">
+        Student Activity Cordinators (2026 Batch){" "}
+      </h4>
+      <div className="team-card-container">
+        {/* Mapping over the teamMembers array to generate card elements */}
+        {studentActivityCoordinators2026.map((activityCoordinator, index) => (
+          <div
+            className="team-card"
+            key={index}
+            style={{
+              backgroundImage: `url(${process.env.PUBLIC_URL}/assets/img/team/${activityCoordinator.image_name})`,
+            }}
+          >
+            <div className="team-card-bottom">
+              <div>{activityCoordinator.name}</div>
+            </div>
+            <div className="team-card-bottom-on-hover flex justify-around align-middle  align-item-center px-4 items-center ">
+              <div>
+                <div className="font-bold">{activityCoordinator.name}</div>
+                <div
+                  dangerouslySetInnerHTML={{
+                    __html: `${activityCoordinator.position}`,
+                  }}
+                ></div>
+                <div> {activityCoordinator.branch}</div>
+                <div> {activityCoordinator.designation}</div>
+              </div>
+              <div className="align-middle">
+                <a
+                  href={activityCoordinator.linkedin}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src="assets/img/team/linkedin.png"
+                    alt="LinkedIn"
+                    style={{ width: "20px", height: "20px" }}
+                  />
+                </a>
+              </div>
             </div>
           </div>
         ))}
@@ -243,7 +387,7 @@ const Team = () => {
       <h4 className="team-container-sub-title">ASSOCIATE MEMBERS</h4>
       <div className="team-card-container">
         {/* Mapping over the teamMembers array to generate card elements */}
-        {associateMembers.map((associate, index) => (
+        {studentPlacementcordinators.map((associate, index) => (
           <div
             className="team-card"
             key={index}
