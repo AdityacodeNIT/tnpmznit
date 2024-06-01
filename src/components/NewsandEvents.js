@@ -119,7 +119,7 @@ const NewsandEvents = () => {
               </p>
             </div>
           </div>
-          <div className="card mb-3">
+          {/* <div className="card mb-3">
             <div className="card-header bg-gradient-to-r from-[#f3c031] to-[#43920d] sticky-top">
               <h5 className="card-title">Events</h5>
             </div>
@@ -259,7 +259,7 @@ const NewsandEvents = () => {
                 </ul>
               </p>
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
     </div>
