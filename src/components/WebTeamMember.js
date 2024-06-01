@@ -11,16 +11,32 @@ const WebTeam = () => {
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [isSmallScreen, setIsSmallScreen] = useState(window.innerWidth < 768);
 
   useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentIndex(prevIndex => (prevIndex + 2) % associateMembers.length);
-    }, 4000);
+    const handleResize = () => {
+      setIsSmallScreen(window.innerWidth < 768);
+    };
+    
+    window.addEventListener('resize', handleResize);
 
-    return () => clearInterval(interval);
-  }, [associateMembers.length]);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
+  useEffect(() => {
+    if (isSmallScreen) {
+      const interval = setInterval(() => {
+        setCurrentIndex(prevIndex => (prevIndex + 2) % associateMembers.length);
+      }, 3000); // Change every 3 seconds
+
+      return () => clearInterval(interval);
+    }
+  }, [isSmallScreen, associateMembers.length]);
 
   const getVisibleMembers = () => {
+    if (!isSmallScreen) {
+      return associateMembers;
+    }
     const firstIndex = currentIndex;
     const secondIndex = (currentIndex + 1) % associateMembers.length;
     return [associateMembers[firstIndex], associateMembers[secondIndex]];
