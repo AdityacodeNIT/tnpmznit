@@ -13,7 +13,7 @@ const Navbar = () => {
                 className="self-center mt-4 mr-4 2xl:w-44 2xl:h-44 lg:h-32 sm:h-32 sm:w-32 h-16 w-16 lg:ml-4"
               />
             </div>
-            <div className="flex flex-col lg:ml-8 lg:flex-row items-center text-center justify-between mt-4 px-4 lg:mt-0 lg:px-8">
+            <div className="flex flex-col lg:ml-24 lg:flex-row items-center text-center justify-between mt-4 px-4 lg:mt-0 lg:px-8">
               <div className="justify-between">
                 <p className="text-slate-600 lg:font-bold md:font-bold font-md lg:text-xl 2xl:text-2xl md:text-xl sm:text-lg text-xs">
                   प्रशिक्षण एवं नियोजन कार्यालय
@@ -38,8 +38,8 @@ const Navbar = () => {
               />
               <img
                 src="tnplogo.png"
-                alt="chalu"
-                className=" self-center lg:mt-4 mt-12 lg:mx-4  lg:h-44 lg:w-44 pr-2 pb-2 h-14 w-14 sm:h-32 sm:w-32"
+                alt="tnpLogo"
+                className=" self-center lg:mt-4 mt-12 lg:mx-4  lg:h-44 lg:w-44 pr-2 pb-2 h-16 w-16 sm:h-32 sm:w-32"
               />
             </div>
           </div>
