@@ -364,7 +364,7 @@ const Team = () => {
                   <img
                     src="assets/img/team/linkedin.png"
                     alt="LinkedIn"
-                    style={{ width: "20px", height: "20px" }}
+                    style={{ width: "20px", height: "20px", marginLeft: "10px" }}
                   />
                 </a>
               </div> */}
@@ -401,7 +401,7 @@ const Team = () => {
                 <div> {graduateexecutive.designation}</div>
                 <div>Phone: {graduateexecutive.phone}</div>
               </div>
-              {/* <div className="align-middle">
+              <div className="align-middle">
                 <a
                   href={graduateexecutive.linkedin}
                   target="_blank"
@@ -410,10 +410,10 @@ const Team = () => {
                   <img
                     src="assets/img/team/linkedin.png"
                     alt="LinkedIn"
-                    style={{ width: "20px", height: "20px" }}
+                    style={{ width: "20px", height: "20px", marginLeft: "10px" }}
                   />
                 </a>
-              </div> */}
+              </div>
             </div>
           </div>
         ))}
@@ -435,7 +435,7 @@ const Team = () => {
             <div className="team-card-bottom">
               <div>{placementcoordinator.name}</div>
             </div>
-            <div className="team-card-bottom-on-hover flex justify-around align-middle  align-item-center px-4 items-center ">
+            <div className="team-card-bottom-on-hover">
               <div>
                 <div className="font-bold">{placementcoordinator.name}</div>
                 <div
@@ -446,7 +446,7 @@ const Team = () => {
                 <div> {placementcoordinator.branch}</div>
                 <div> {placementcoordinator.designation}</div>
               </div>
-              {/* <div className="align-middle">
+              <div className="align-middle">
                 <a
                   href={placementcoordinator.linkedin}
                   target="_blank"
@@ -455,10 +455,10 @@ const Team = () => {
                   <img
                     src="assets/img/team/linkedin.png"
                     alt="LinkedIn"
-                    style={{ width: "20px", height: "20px" }}
+                    style={{ width: "20px", height: "20px", marginLeft: "10px" }}
                   />
                 </a>
-              </div> */}
+              </div>
             </div>
           </div>
         ))}
@@ -479,7 +479,7 @@ const Team = () => {
             <div className="team-card-bottom">
               <div>{activityCoordinator.name}</div>
             </div>
-            <div className="team-card-bottom-on-hover flex justify-around align-middle  align-item-center px-4 items-center ">
+            <div className="team-card-bottom-on-hover">
               <div>
                 <div className="font-bold">{activityCoordinator.name}</div>
                 <div
@@ -490,7 +490,7 @@ const Team = () => {
                 <div> {activityCoordinator.branch}</div>
                 <div> {activityCoordinator.designation}</div>
               </div>
-              {/* <div className="align-middle">
+              <div className="align-middle">
                 <a
                   href={activityCoordinator.linkedin}
                   target="_blank"
@@ -499,10 +499,10 @@ const Team = () => {
                   <img
                     src="assets/img/team/linkedin.png"
                     alt="LinkedIn"
-                    style={{ width: "20px", height: "20px" }}
+                    style={{ width: "20px", height: "20px", marginLeft: "10px" }}
                   />
                 </a>
-              </div> */}
+              </div>
             </div>
           </div>
         ))}
@@ -524,7 +524,7 @@ const Team = () => {
             <div className="team-card-bottom">
               <div>{activityCoordinator.name}</div>
             </div>
-            <div className="team-card-bottom-on-hover flex justify-around align-middle  align-item-center px-4 items-center ">
+            <div className="team-card-bottom-on-hover">
               <div>
                 <div className="font-bold">{activityCoordinator.name}</div>
                 <div
@@ -535,7 +535,7 @@ const Team = () => {
                 <div> {activityCoordinator.branch}</div>
                 <div> {activityCoordinator.designation}</div>
               </div>
-              {/* <div className="align-middle">
+              <div className="align-middle">
                 <a
                   href={activityCoordinator.linkedin}
                   target="_blank"
@@ -544,10 +544,10 @@ const Team = () => {
                   <img
                     src="assets/img/team/linkedin.png"
                     alt="LinkedIn"
-                    style={{ width: "20px", height: "20px" }}
+                    style={{ width: "20px", height: "20px", marginLeft: "10px" }}
                   />
                 </a>
-              </div> */}
+              </div>
             </div>
           </div>
         ))}
@@ -569,7 +569,7 @@ const Team = () => {
             <div className="team-card-bottom">
               <div>{excutive.name}</div>
             </div>
-            <div className="team-card-bottom-on-hover flex justify-around align-middle  align-item-center px-4 items-center ">
+            <div className="team-card-bottom-on-hover">
               <div>
                 <div className="font-bold">{excutive.name}</div>
                 <div
@@ -580,7 +580,7 @@ const Team = () => {
                 <div> {excutive.branch}</div>
                 <div> {excutive.designation}</div>
               </div>
-              {/* <div className="align-middle">
+              <div className="align-middle">
                 <a
                   href={excutive.linkedin}
                   target="_blank"
@@ -589,10 +589,10 @@ const Team = () => {
                   <img
                     src="assets/img/team/linkedin.png"
                     alt="LinkedIn"
-                    style={{ width: "20px", height: "20px" }}
+                    style={{ width: "20px", height: "20px", marginLeft: "10px" }}
                   />
                 </a>
-              </div> */}
+              </div>
             </div>
           </div>
         ))}
@@ -614,7 +614,7 @@ const Team = () => {
             <div className="team-card-bottom">
               <div>{excutive.name}</div>
             </div>
-            <div className="team-card-bottom-on-hover flex justify-around align-middle  align-item-center px-4 items-center ">
+            <div className="team-card-bottom-on-hover">
               <div>
                 <div className="font-bold">{excutive.name}</div>
                 <div
@@ -625,7 +625,7 @@ const Team = () => {
                 <div> {excutive.branch}</div>
                 <div> {excutive.designation}</div>
               </div>
-              {/* <div className="align-middle">
+              <div className="align-middle">
                 <a
                   href={excutive.linkedin}
                   target="_blank"
@@ -634,10 +634,10 @@ const Team = () => {
                   <img
                     src="assets/img/team/linkedin.png"
                     alt="LinkedIn"
-                    style={{ width: "20px", height: "20px" }}
+                    style={{ width: "20px", height: "20px", marginLeft: "10px" }}
                   />
                 </a>
-              </div> */}
+              </div>
             </div>
           </div>
         ))}
@@ -659,7 +659,7 @@ const Team = () => {
             <div className="team-card-bottom">
               <div>{mediamember.name}</div>
             </div>
-            <div className="team-card-bottom-on-hover flex justify-around align-middle  align-item-center px-4 items-center ">
+            <div className="team-card-bottom-on-hover">
               <div>
                 <div className="font-bold">{mediamember.name}</div>
                 <div
@@ -670,7 +670,7 @@ const Team = () => {
                 <div> {mediamember.branch}</div>
                 <div> {mediamember.designation}</div>
               </div>
-              {/* <div className="align-middle">
+              <div className="align-middle">
                 <a
                   href={mediamember.linkedin}
                   target="_blank"
@@ -679,10 +679,10 @@ const Team = () => {
                   <img
                     src="assets/img/team/linkedin.png"
                     alt="LinkedIn"
-                    style={{ width: "20px", height: "20px" }}
+                    style={{ width: "20px", height: "20px", marginLeft: "10px" }}
                   />
                 </a>
-              </div> */}
+              </div>
             </div>
           </div>
         ))}
