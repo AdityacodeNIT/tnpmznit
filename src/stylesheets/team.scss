@@ -91,17 +91,26 @@
     transform: scaleY(1);
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 798px) {
     .team-container {
         // background-color: aqua;
         padding: 50px 0 0 0;
         text-align: center;
+    //     background-position: center;
+    // position: relative;
+    // overflow-x: scroll;
     }
     .team-card-container{ 
-        width: 90%;       
+        width: 90%;           
         display: flex;
         flex-wrap: nowrap;
+        object-fit: contain;
+        // flex-wrap: initial;
+        // background-color: aquamarine;
+        overflow: hidden;
         overflow-x: scroll;
+        justify-content: flex-start;
+        // overflow-x: auto;
     }
     .team-card {
         height: 300px;

@@ -603,6 +603,7 @@ const Team = () => {
       </h4>
       <div className="team-card-container">
         {/* Mapping over the teamMembers array to generate card elements */}
+        {/* <div> */}
         {associateMembers.map((excutive, index) => (
           <div
             className="team-card"
@@ -641,6 +642,7 @@ const Team = () => {
             </div>
           </div>
         ))}
+        {/* </div> */}
       </div>
 
       <h4 className="team-container-sub-title lg:text-2xl md:text-xl text-md">
