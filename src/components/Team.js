@@ -16,13 +16,14 @@ const Team = () => {
     {
       name: "Dr. Ashish Singh Patel",
       position: "FIC, Alumni",
-
+      phone: "+91-8839341501",
       email: "ashish.cse@nitmz.ac.in",
       image_name: "dr_ashish_singh.png",
     },
     {
       name: "Dr. Amit Yadav",
       position: "TPO, CE",
+      phone: "+91-9755007773",
       linkedin: "",
       email: "amit.ce@nitmz.ac.in",
       image_name: "dr_amit.png",
@@ -30,20 +31,23 @@ const Team = () => {
     {
       name: "Dr. Lalhruaizela",
       position: "TPO, CSE",
+      phone: "+91-9487678402",
       linkedin: "",
-      email: "",
+      email: "lalhruaizela.cse@nitmz.ac.in",
       image_name: "dr_zela.png",
     },
     {
       name: "Dr. K. Vanlalawmpuia",
       position: "TPO, ECE",
+      phone: "+91-9774912755",
       linkedin: "",
-      email: "",
+      email: "kpuitea.ece@nitmz.ac.in",
       image_name: "dr_puia1.png",
     },
     {
       name: "Dr. Ramesh Kumar",
       position: "TPO, EEE",
+      phone: "+91-8822097049",
       linkedin: "ttps://www.linkedin.com/in/dr-ramesh-kumar-40590646",
       email: "ramesh.ee@nitmz.ac.in",
       image_name: "dr_ramesh.png",
@@ -51,7 +55,7 @@ const Team = () => {
     {
       name: "Dr. Vijay Mandal",
       position: "TPO, ME",
-
+      phone: "+91-9661164031",
       email: "vijay.me@nitmz.ac.in",
       image_name: "dr_vijay2.png",
     },
@@ -62,6 +66,7 @@ const Team = () => {
       name: "Avishek Gope",
       position: "Graduate Executive",
       branch: "CSE",
+      phone: "+91-9264270247",
       linkedin: "",
       image_name: "avishek_gope.png",
     },
@@ -69,6 +74,7 @@ const Team = () => {
       name: "Ayush Raj",
       position: "Graduate Executive",
       branch: "ECE",
+      phone: "+91-7254905694",
       linkedin: "",
       image_name: "ayush_raj.png",
     },
@@ -95,7 +101,7 @@ const Team = () => {
       position: "Placement Coordinator",
       branch: "CSE",
       linkedin: "",
-      image_name: "siddharth.png",
+      image_name: "siddharth_bhatt1.png",
     },
 
     {
@@ -118,7 +124,7 @@ const Team = () => {
       position: "Placement-Coordinator",
       branch: "MT CIR",
       linkedin: "https://www.linkedin.com/in/shashanknitmz",
-      image_name: "Shashank_shekhar.jpg",
+      image_name: "Shashank_shekhar1.jpg",
     },
   ];
 
@@ -181,7 +187,7 @@ const Team = () => {
       linkedin: "https://www.linkedin.com/in/abhinav-gupta-850276260",
       position: "Activity Cordinator",
       branch: "ME",
-      image_name: "abhinav.png",
+      image_name: "abhinav1.png",
     },
 
     {
@@ -189,7 +195,7 @@ const Team = () => {
       position: "Activity Coordinator",
       branch: "CSE",
       linkedin: "",
-      image_name: "md_sibtain.png",
+      image_name: "md_sibtain1.png",
     },
     {
       name: "Rahul Kumar",
@@ -213,7 +219,7 @@ const Team = () => {
       position: "Executive Members",
       branch: "ME",
       linkedin: "https://www.linkedin.com/in/shashank-kumar-singh-655432230 ",
-      image_name: "shashank_kumar.jpg",
+      image_name: "shashank_kumar1.jpg",
     },
     {
       name: "Jyoti",
@@ -234,14 +240,14 @@ const Team = () => {
       position: "Executive Members",
       branch: "ME",
       linkedin: "https://www.linkedin.com/in/chandni-kumari-a9b969250  ",
-      image_name: "chandni_kumari.png",
+      image_name: "chandni_kumari1.png",
     },
     {
       name: "Kanahiya Kumar",
       position: "Executive Members",
       branch: "EE",
       linkedin: "https://www.linkedin.com/in/kanhaiya-kumar-586542248 ",
-      image_name: "kanahiya_kumar.jpg",
+      image_name: "kanahiya_kumar1.jpg",
     },
   ];
 
@@ -286,7 +292,7 @@ const Team = () => {
   const mediaMembers = [
     {
       name: "Dharmendra Chaudhry",
-      position: "Media & Website Team Lead",
+      position: "Media Team Lead",
       branch: "ECE",
       linkedin: " ",
       image_name: "Dharmendra_web.jpg",
@@ -340,7 +346,7 @@ const Team = () => {
             <div className="team-card-bottom">
               <div>{member.name}</div>
             </div>
-            <div className="team-card-bottom-on-hover flex justify-around align-middle  align-item-center px-4 items-center">
+            <div className="team-card-bottom-on-hover">
               <div>
                 <div>{member.name}</div>
                 <div
@@ -349,7 +355,7 @@ const Team = () => {
                 <div>Phone: {member.phone}</div>
                 <div>Email: {member.email}</div>
               </div>
-              <div className="align-middle">
+              {/* <div className="align-middle">
                 <a
                   href={member.linkedin}
                   target="_blank"
@@ -361,7 +367,7 @@ const Team = () => {
                     style={{ width: "20px", height: "20px" }}
                   />
                 </a>
-              </div>
+              </div> */}
             </div>
           </div>
         ))}
@@ -383,7 +389,7 @@ const Team = () => {
             <div className="team-card-bottom">
               <div>{graduateexecutive.name}</div>
             </div>
-            <div className="team-card-bottom-on-hover flex justify-around align-middle  align-item-center px-4 items-center ">
+            <div className="team-card-bottom-on-hover">
               <div>
                 <div className="font-bold">{graduateexecutive.name}</div>
                 <div
@@ -393,8 +399,9 @@ const Team = () => {
                 ></div>
                 <div> {graduateexecutive.branch}</div>
                 <div> {graduateexecutive.designation}</div>
+                <div>Phone: {graduateexecutive.phone}</div>
               </div>
-              <div className="align-middle">
+              {/* <div className="align-middle">
                 <a
                   href={graduateexecutive.linkedin}
                   target="_blank"
@@ -406,7 +413,7 @@ const Team = () => {
                     style={{ width: "20px", height: "20px" }}
                   />
                 </a>
-              </div>
+              </div> */}
             </div>
           </div>
         ))}
@@ -439,7 +446,7 @@ const Team = () => {
                 <div> {placementcoordinator.branch}</div>
                 <div> {placementcoordinator.designation}</div>
               </div>
-              <div className="align-middle">
+              {/* <div className="align-middle">
                 <a
                   href={placementcoordinator.linkedin}
                   target="_blank"
@@ -451,7 +458,7 @@ const Team = () => {
                     style={{ width: "20px", height: "20px" }}
                   />
                 </a>
-              </div>
+              </div> */}
             </div>
           </div>
         ))}
@@ -483,7 +490,7 @@ const Team = () => {
                 <div> {activityCoordinator.branch}</div>
                 <div> {activityCoordinator.designation}</div>
               </div>
-              <div className="align-middle">
+              {/* <div className="align-middle">
                 <a
                   href={activityCoordinator.linkedin}
                   target="_blank"
@@ -495,7 +502,7 @@ const Team = () => {
                     style={{ width: "20px", height: "20px" }}
                   />
                 </a>
-              </div>
+              </div> */}
             </div>
           </div>
         ))}
@@ -528,7 +535,7 @@ const Team = () => {
                 <div> {activityCoordinator.branch}</div>
                 <div> {activityCoordinator.designation}</div>
               </div>
-              <div className="align-middle">
+              {/* <div className="align-middle">
                 <a
                   href={activityCoordinator.linkedin}
                   target="_blank"
@@ -540,7 +547,7 @@ const Team = () => {
                     style={{ width: "20px", height: "20px" }}
                   />
                 </a>
-              </div>
+              </div> */}
             </div>
           </div>
         ))}
@@ -573,7 +580,7 @@ const Team = () => {
                 <div> {excutive.branch}</div>
                 <div> {excutive.designation}</div>
               </div>
-              <div className="align-middle">
+              {/* <div className="align-middle">
                 <a
                   href={excutive.linkedin}
                   target="_blank"
@@ -585,7 +592,7 @@ const Team = () => {
                     style={{ width: "20px", height: "20px" }}
                   />
                 </a>
-              </div>
+              </div> */}
             </div>
           </div>
         ))}
@@ -618,7 +625,7 @@ const Team = () => {
                 <div> {excutive.branch}</div>
                 <div> {excutive.designation}</div>
               </div>
-              <div className="align-middle">
+              {/* <div className="align-middle">
                 <a
                   href={excutive.linkedin}
                   target="_blank"
@@ -630,7 +637,7 @@ const Team = () => {
                     style={{ width: "20px", height: "20px" }}
                   />
                 </a>
-              </div>
+              </div> */}
             </div>
           </div>
         ))}
@@ -663,7 +670,7 @@ const Team = () => {
                 <div> {mediamember.branch}</div>
                 <div> {mediamember.designation}</div>
               </div>
-              <div className="align-middle">
+              {/* <div className="align-middle">
                 <a
                   href={mediamember.linkedin}
                   target="_blank"
@@ -675,7 +682,7 @@ const Team = () => {
                     style={{ width: "20px", height: "20px" }}
                   />
                 </a>
-              </div>
+              </div> */}
             </div>
           </div>
         ))}

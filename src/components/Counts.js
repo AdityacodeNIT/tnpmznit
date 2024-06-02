@@ -1,6 +1,6 @@
-import React, { useContext, useState, useEffect } from "react";
+import React from "react";
 import "../stylesheets/Counts.css";
-import UserContext from "../context/UserContext";
+
 const Counts = () => {
   return (
     <section id="counts" class="counts section-bg ">
