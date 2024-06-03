@@ -109,7 +109,7 @@ const Team = () => {
       position: "Placement Coordinator",
       branch: "CE",
       linkedin: "https://www.linkedin.com/in/shubham-kumar-477826271",
-      image_name: "shubham_kumar.png",
+      image_name: "shubham_kumar1.png",
     },
 
     {
@@ -135,7 +135,7 @@ const Team = () => {
       branch: "CSE",
       designation: "Team-Lead",
       linkedin: "https://www.linkedin.com/in/khushbu-kumari-772543251",
-      image_name: "khushbu_kumari.png",
+      image_name: "khushbu_kumari1.png",
     },
     {
       name: "Yazat Mishra",
@@ -187,7 +187,7 @@ const Team = () => {
       linkedin: "https://www.linkedin.com/in/abhinav-gupta-850276260",
       position: "Activity Cordinator",
       branch: "ME",
-      image_name: "abhinav1.png",
+      image_name: "abhinav1new.png",
     },
 
     {
@@ -202,14 +202,14 @@ const Team = () => {
       position: "Activity Coordinator",
       branch: "CE",
       linkedin: "https://www.linkedin.com/in/rahul-kumar-8a9a7825b ",
-      image_name: "rahul_kumar.png",
+      image_name: "rahul_kumar1.png",
     },
     {
       name: "Rohit Kumar Gupta ",
       position: "Activity Coordinator",
       branch: "EEE",
       linkedin: "https://www.linkedin.com/in/rohit-kumar-gupta-33719624b",
-      image_name: "Rohit_gupta.png",
+      image_name: "Rohit_kumar.jpg",
     },
   ];
 
@@ -233,7 +233,7 @@ const Team = () => {
       position: "Executive Members",
       branch: "EC",
       linkedin: "https://www.linkedin.com/in/prachi-gupta-a82918232 ",
-      image_name: "prachi_gupta.jpg",
+      image_name: "prachi.png",
     },
     {
       name: "Chandni Kumari",
@@ -264,7 +264,7 @@ const Team = () => {
       position: "Associate Members",
       branch: "CS",
       linkedin: "https://www.linkedin.com/in/tanmay-kumar-4360a9256 ",
-      image_name: "tanmay_kumar.png",
+      image_name: "tanmay_kumar1.png",
     },
     {
       name: "Ashwini",
@@ -278,7 +278,7 @@ const Team = () => {
       position: "Associate Members",
       branch: "CE",
       linkedin: "https://www.linkedin.com/in/mudavath-pooja-0591482b9  ",
-      image_name: "pooja_.png",
+      image_name: "pooja1.png",
     },
     {
       name: "Soundarya M.",
@@ -295,7 +295,7 @@ const Team = () => {
       position: "Media Team Lead",
       branch: "ECE",
       linkedin: " ",
-      image_name: "Dharmendra_web.jpg",
+      image_name: "Dharmendra.jpg",
     },
     {
       name: "Ayush Anand",
