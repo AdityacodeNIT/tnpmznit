@@ -96,34 +96,18 @@
     // flex-direction: column;
     // flex-wrap: wrap;
     // height: auto;
-    width: 170px;
+    width: 300px;
     // justify-content: space-between;
-    padding: 0 8px 0 8px;
+    padding: 10px 8px 0 8px;
     // margin: 0 8px;
     // background-color: antiquewhite;
+    text-align: center;
     
 }
   .web-team-card {
-    height: 250px;
-    max-width: 170px;
-}
-.position0 {
-  margin-top: 250px;
+    height: 300px;
+    width: 100%;
+    background-size: contain;
 }
 
-.position1 {
-  margin-top: 120px;
-}
-
-.position2 {
-  margin-top: 50px;
-}
-
-.position3 {
-  margin-top: 40px;
-}
-
-.position4 {
-  margin-top: 100px;
-}
 }

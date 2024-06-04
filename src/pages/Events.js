@@ -74,7 +74,8 @@ const formatDate = (dateString) => {
   return (
     <div>
       <div style={{ color: "orange", fontWeight: "bold" }}>{day}</div>
-      <div>{month}</div>
+      <div >{month}</div>
+      <div className="day-underline"></div>
     </div>
   );
 };

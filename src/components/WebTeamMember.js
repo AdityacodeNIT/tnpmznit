@@ -26,7 +26,7 @@ const WebTeam = () => {
   useEffect(() => {
     if (isSmallScreen) {
       const interval = setInterval(() => {
-        setCurrentIndex(prevIndex => (prevIndex + 2) % associateMembers.length);
+        setCurrentIndex(prevIndex => (prevIndex + 1) % associateMembers.length);
       }, 3000); // Change every 3 seconds
 
       return () => clearInterval(interval);
@@ -34,12 +34,7 @@ const WebTeam = () => {
   }, [isSmallScreen, associateMembers.length]);
 
   const getVisibleMembers = () => {
-    if (!isSmallScreen) {
-      return associateMembers;
-    }
-    const firstIndex = currentIndex;
-    const secondIndex = (currentIndex + 1) % associateMembers.length;
-    return [associateMembers[firstIndex], associateMembers[secondIndex]];
+    return isSmallScreen ? [associateMembers[currentIndex]] : associateMembers;
   };
 
   return (
