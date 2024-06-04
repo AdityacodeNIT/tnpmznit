@@ -90,7 +90,7 @@ const EventsList = () => {
     <div className="events-list">
       <div className="events-title">EVENTS</div>
       <div className="container">
-        <h2 className="events-subtitle">Upcoming Events</h2>
+        <h2 className="events-subtitle">Upcoming Event</h2>
         <div className="events-container">
           {upcomingEvents.map(event => (
             <div className="events-card" key={event.id}>
