@@ -54,7 +54,7 @@
 .web-team-card-bottom {
     align-items: center;
     justify-content: center;
-    width: 200px;
+    width: inherit;
     margin: 10px 0 0 0;
     opacity: 0.7;
     text-transform: uppercase;
@@ -91,9 +91,21 @@
 }
 
 @media (max-width: 768px) {
+  .web-team-card-container {
+    display: flex;
+    // flex-direction: column;
+    // flex-wrap: wrap;
+    // height: auto;
+    width: 170px;
+    // justify-content: space-between;
+    padding: 0 8px 0 8px;
+    // margin: 0 8px;
+    // background-color: antiquewhite;
+    
+}
   .web-team-card {
     height: 250px;
-    width: 180px;
+    max-width: 170px;
 }
 .position0 {
   margin-top: 250px;
