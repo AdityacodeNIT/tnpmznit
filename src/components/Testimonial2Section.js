@@ -5,7 +5,7 @@ import Slider from "react-slick";
 import "aos/dist/aos.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import "../stylesheets/Testimonials.css";
+import "../stylesheets/Testimonials.scss";
 
 export default function TestimonialSection() {
   useEffect(() => {
@@ -29,7 +29,7 @@ export default function TestimonialSection() {
       <div className="container" data-aos="fade-up">
         <div className="section-title">
           <h2>Placement Highlights</h2>
-          <p style={{ textAlign: "justify" }}>
+          <p style={{ textAlign: "center" }}>
             What our placed student say about their placement and what are there
             opinion about University and training and placement cell of our
             university.
